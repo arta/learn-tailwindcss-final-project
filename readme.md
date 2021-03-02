@@ -48,7 +48,8 @@ module.exports = {
 @tailwind utilities;
 ```
 
-• Add to `package.json::sripts`:</br>
+• Add to `package.json`:</br>
+: add to the "scripts" object our postcss build script key-value:
 `"build": "postcss stylesheets/source.css -o build/compiled.css"`
 
 • Add to `index.html`:</br>
