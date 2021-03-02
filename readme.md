@@ -49,7 +49,7 @@ module.exports = {
 ```
 
 • Add to `package.json`:</br>
-: add to the "scripts" object our postcss build script key-value:
+: add to the "scripts" object our postcss build script key-value:</br>
 `"build": "postcss stylesheets/source.css -o build/compiled.css"`
 
 • Add to `index.html`:</br>
