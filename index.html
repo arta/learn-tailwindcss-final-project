@@ -6,7 +6,7 @@
   <link href="/build/compiled.css" rel="stylesheet">
   <style>
     *, *::after, *::before {
-      outline: 1px dotted hotpink;
+      /* outline: 1px dotted hotpink; */
       box-sizing: border-box;
     }
   </style>
@@ -56,19 +56,19 @@
 
       <section>
         <div class="max-w-4xl mx-auto p-4">
-          <h2 class="text-center">Sign up to download the free PDF</h2>
-          <form class="grid max-w-xl mx-auto w-11/12" action="#" method="post">
-            <input type="text" name="first_name" id="first_name" placeholder="First name">
-            <input type="text" name="last_name" id="last_name" placeholder="Last name">
-            <input type="email" name="email" id="email" placeholder="john@email.com">
-            <input type="text" name="title" id="title" placeholder="Your title">
-            <input type="submit" value="Create account">
+          <h2 class="font-bold p-7 text-center text-xl">Sign up to download the free PDF</h2>
+          <form class="grid max-w-xl mx-auto md:gap-x-4 md:grid-cols-2 w-11/12" action="#" method="post">
+            <input class="border-2 mb-4 px-4 py-2 rounded-md" type="text" name="first_name" id="first_name" placeholder="First name">
+            <input class="border-2 mb-4 px-4 py-2 rounded-md" type="text" name="last_name" id="last_name" placeholder="Last name">
+            <input class="border-2 mb-4 px-4 py-2 rounded-md" type="email" name="email" id="email" placeholder="john@email.com">
+            <input class="border-2 mb-4 px-4 py-2 rounded-md" type="text" name="title" id="title" placeholder="Your title">
+            <input class="font-bold mb-4 md:col-span-full px-3 py-2 rounded-md text-sm" type="submit" value="Create account">
           </form>
         </div>
       </section>
   </main>
 
-  <footer>
+  <footer class="pb-8">
     <small class="block text-center">Copyright © 2019 Scrimba</small>
   </footer>
 </body>
