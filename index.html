@@ -14,7 +14,7 @@
 </head>
 
 <body class="grid min-h-screen grid-rows-au-1fr-au">
-  <header>
+  <header class="bg-indigo-700 bg-opacity-90">
     <div class="flex justify-between max-w-4xl mx-auto px-4 py-1">
       <a href="#" id="logo">
         <svg class="fill-current text-pink-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 32" width="110">
@@ -25,7 +25,7 @@
       </a>
 
       <button type="button" id="hamburger">
-        <svg class="fill-current text-white" viewBox="0 0 24 24" width="24">
+        <svg class="fill-current text-gray-200" viewBox="0 0 24 24" width="24">
           <path fill-rule="evenodd"
             d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
         </svg>
@@ -34,21 +34,21 @@
   </header>
 
   <main class="flex flex-col">
-      <section class="border-b-4 border-gray-400">
-        <div class="flex flex-col max-w-4xl mx-auto pb-6 p-4 relative">
-          <h1 class="mb-3 text-2xl">Want to learn Tailwind CSS?</h1>
+      <section class="bg-indigo-700 bg-opacity-90 border-b-4 border-pink-500">
+        <div class="flex flex-col max-w-4xl mx-auto pb-6 p-4 relative text-gray-100">
+          <h1 class="mb-1 text-2xl">Want to learn Tailwind CSS?</h1>
 
-          <p class="mb-3">Tailwind is the fastest growing utility-first CSS framework. Let's learn it step by step.</p>
+          <p class="mb-4 text-indigo-100 text-sm">Tailwind is the fastest growing utility-first CSS framework. Let's learn it step by step.</p>
 
-          <a class="bg-gray-400 font-bold inline-block px-4 py-2 rounded-full self-start text-xs text-white uppercase" href="#">Enroll now</a>
+          <a class="bg-pink-400 font-bold inline-block px-4 py-2 rounded-full self-start text-xs text-gray-50 uppercase" href="#">Enroll now</a>
 
-          <img class="bg-white border-4 border-gray-400 p-4 absolute rounded-full self-end -bottom-12 w-24" alt="Tailwind CSS logo" src="images/tailwind-logo.png">
+          <img class="bg-white border-4 border-pink-500 p-4 absolute rounded-full self-end -bottom-12 w-24" alt="Tailwind CSS logo" src="images/tailwind-logo.png">
         </div>
       </section>
 
-      <section class="bg-gray-200 flex-grow">
-        <div class="grid max-w-4xl sm:gap-x-4 sm:grid-cols-3 mx-auto pt-16 px-4 pb-10">
-          <h2 class="border-b-2 border-gray-300 font-bold mb-5 sm:col-span-full pb-1 text-xl">How It Works</h2>
+      <section class="bg-indigo-50 flex-grow">
+        <div class="grid max-w-4xl sm:gap-x-4 sm:grid-cols-3 mx-auto pt-16 px-4 pb-10 text-gray-500">
+          <h2 class="border-b border-indigo-200 font-bold mb-5 sm:col-span-full pb-1 text-indigo-700 text-xl">How It Works</h2>
 
           <p class="mb-8 sm:col-span-full">
             Tailwind is designed for rapid development of modern applications. At its core, it is a robust mobile-first design
@@ -56,10 +56,10 @@
             anything else. Learn all about it in this all-inclusive course.
           </p>
 
-          <h2 class="border-b-2 border-gray-300 font-bold mb-5 sm:col-span-full pb-1 text-xl">Advantages</h2>
+          <h2 class="border-b border-indigo-200 font-bold mb-5 sm:col-span-full pb-1 text-indigo-700 text-xl">Advantages</h2>
 
-          <div class="bg-white border-b-4 border-gray-500 flex flex-col mb-4 px-6 py-10 rounded-lg text-center">
-            <h3 class="font-bold mb-3 text-lg">No Custom CSS</h3>
+          <div class="bg-white border-b-4 border-pink-500 flex flex-col mb-4 px-6 py-10 rounded-lg text-center">
+            <h3 class="font-bold mb-3 text-gray-700 text-lg">No Custom CSS</h3>
             <svg class="fill-current bg-indigo-50 mx-auto order-first mb-5 p-2 rounded-full text-indigo-700 w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <title>CSS icon</title>
               <path
@@ -69,8 +69,8 @@
             <p class="text-sm">Tailwind's advanced class extraction will leave your project free of custom CSS.</p>
           </div>
 
-          <div class="bg-white border-b-4 border-gray-500 flex flex-col mb-4 px-6 py-10 rounded-lg text-center">
-            <h3 class="font-bold mb-3 text-lg">Developer Experience</h3>
+          <div class="bg-white border-b-4 border-pink-500 flex flex-col mb-4 px-6 py-10 rounded-lg text-center">
+            <h3 class="font-bold mb-3 text-gray-700 text-lg">Developer Experience</h3>
             <svg class="fill-current bg-indigo-50 mx-auto order-first mb-5 p-2 rounded-full text-indigo-700 w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <title>Developer icon</title>
               <path
@@ -79,8 +79,8 @@
             <p class="text-sm">Tailwind is designed with your happiness in mind. The ease of performing changes is refreshing.</p>
           </div>
 
-          <div class="bg-white border-b-4 border-gray-500 flex flex-col mb-4 px-6 py-10 rounded-lg text-center">
-            <h3 class="font-bold mb-3 text-lg">Mobile Friendly</h3>
+          <div class="bg-white border-b-4 border-pink-500 flex flex-col mb-4 px-6 py-10 rounded-lg text-center">
+            <h3 class="font-bold mb-3 text-gray-700 text-lg">Mobile Friendly</h3>
             <svg class="fill-current bg-indigo-50 mx-auto order-first mb-5 p-2 rounded-full text-indigo-700 w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <title>Mobile icon</title>
               <path
