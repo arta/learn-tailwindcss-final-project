@@ -36,6 +36,8 @@ module.exports = {
   }
 }
 ```
+: Can be generated when initializing Tailwind config</br>
+`learn-tailwindcss % npx tailwindcss init -p`</br>
 
 • Create `index.html`</br>
 : Add: standard html boilerplate code
@@ -47,6 +49,7 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+: Custom base styles, components and/or utilities are added here
 
 • Add to `package.json`:</br>
 : add to the "scripts" object our postcss build script key-value:</br>
@@ -57,14 +60,20 @@ module.exports = {
 `<body><header class="bg-red-400">Hello World!</header>..` # will
   test if everything works after we run our build script
 
-Finally, run the build script:</br>
-`learn-tailwindcss % npm run build`
+• Finally, run the build script:</br>
+`learn-tailwindcss % npm run build`</br>
+: Re-run after Tailwind customizations in `source.css` (or whatever our name is) or `tailwind.config.js`
 
-And that's it. Works.
+And that's it. All works.
 
-To customize and/or activate VS Code's Tailwind CSS Intellisense extension:</br>
+• To extend, configure, customize Tailwind, and/or activate VS Code's Tailwind CSS Intellisense extension:</br>
 `learn-tailwindcss % npx tailwindcss init`</br>
 : Creates `tailwind.config.js` with default config content
+: Tailwind's existing styles (theme) are extended here
+
+• Later I found out (from Tailwind docs config section) that:</br>
+`learn-tailwindcss % npx tailwindcss init -p`</br>
+: Creates both, `tailwind.config.js` & `postcss.config.js` with default config content
 
 #### 3-2-2021:
 https://tailwindcss.com/docs/using-with-preprocessors#using-post-css-as-your-preprocessor</br>
