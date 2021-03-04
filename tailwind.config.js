@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateRows: {
-        'maxmain': 'auto 1fr auto',
+        'au-1fr-au': 'auto 1fr auto',
       }
     },
   },
