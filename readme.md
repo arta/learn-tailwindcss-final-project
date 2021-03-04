@@ -68,7 +68,7 @@ And that's it. All works.
 
 • To extend, configure, customize Tailwind, and/or activate VS Code's Tailwind CSS Intellisense extension:</br>
 `learn-tailwindcss % npx tailwindcss init`</br>
-: Creates `tailwind.config.js` with default config content
+: Creates `tailwind.config.js` with default config content</br>
 : Tailwind's existing styles (theme) are extended here
 
 • Later I found out (from Tailwind docs config section) that:</br>
