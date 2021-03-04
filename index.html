@@ -38,9 +38,18 @@
         <div class="flex flex-col max-w-4xl mx-auto pb-6 p-4 relative text-gray-100">
           <h1 class="mb-1 text-2xl">Want to learn Tailwind CSS?</h1>
 
-          <p class="mb-4 text-indigo-100 text-sm">Tailwind is the fastest growing utility-first CSS framework. Let's learn it step by step.</p>
+          <p class="mb-4 text-indigo-100 text-sm">
+            Tailwind is the fastest growing utility-first CSS framework.
+            Let's learn it step by step.
+          </p>
 
-          <a class="bg-pink-400 font-bold inline-block px-4 py-2 rounded-full self-start text-xs text-gray-50 uppercase" href="#">Enroll now</a>
+          <a href="#"
+            class="bg-pink-400 border border-pink-400 font-bold inline-block
+            hover:bg-pink-500 hover:border-pink-400 hover:text-white px-4
+            py-2 rounded-full self-start text-xs text-gray-50
+            transition-colors duration-300 uppercase" >
+            Enroll now
+          </a>
 
           <img class="bg-white border-4 border-pink-500 p-4 absolute rounded-full self-end -bottom-12 w-24" alt="Tailwind CSS logo" src="images/tailwind-logo.png">
         </div>
@@ -122,8 +131,10 @@
               rounded-md">
 
             <input type="submit" value="Create account"
-              class="bg-blue-500 font-bold mb-4 md:col-span-full px-3 py-2
-                rounded-md text-gray-200 text-sm">
+              class="bg-blue-500 border border-blue-500 cursor-pointer font-bold mb-4
+              hover:bg-blue-600 hover:border-blue-400 hover:text-gray-100
+              md:col-span-full px-3 py-2 rounded-md text-gray-200 text-sm
+              transition-colors duration-300">
           </form>
         </div>
       </section>
