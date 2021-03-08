@@ -1,5 +1,5 @@
-Completed coursework of **Learn Tailwind CSS for free final project** \
-by Victor Gonzalez
+Completed coursework of Scrimba's **Learn Tailwind CSS for free** final project \
+(a course by **Victor Gonzalez**)
 
 [GitHub Page](https://arta.github.io/scrimba-learn-tailwindcss-final-project/)
 of this repo
