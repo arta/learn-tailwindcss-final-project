@@ -71,6 +71,9 @@ module.exports = {
 • Finally, run the build script:</br>
 `learn-tailwindcss % npm run build`</br>
 : Re-run after Tailwind customizations in `source.css` (or whatever our name is) or `tailwind.config.js`
+: purge our ginormous `build/compiled.css` with `NODE_ENV production` option
+  in a new build (compile) for production script:
+`"production": "NODE_ENV production postcss stylesheets/source.css -o build/compiled.css"`
 
 And that's it. All works.
 

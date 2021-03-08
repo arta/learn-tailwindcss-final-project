@@ -5,7 +5,8 @@
   "main": "postcss.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss stylesheets/source.css -o build/compiled.css"
+    "build": "postcss stylesheets/source.css -o build/compiled.css",
+    "production": "NODE_ENV=production postcss stylesheets/source.css -o build/compiled.css"
   },
   "keywords": [],
   "author": "arta",

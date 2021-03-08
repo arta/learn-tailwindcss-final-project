@@ -2,7 +2,7 @@
 // learn-tailwindcss.. % npm run build
 
 module.exports = {
-  purge: [],
+  purge: ['./index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
