@@ -1,3 +1,11 @@
+Completed coursework of **Learn Tailwind CSS for free final project** \
+by Victor Gonzalez
+
+[GitHub Page](https://arta.github.io/scrimba-learn-tailwindcss-final-project/)
+of this repo
+
+Scrimba's course [website](https://scrimba.com/learn/tailwind)
+
 ### Local Setup
 
 #### Putting it all together (Node.js assumed installed), step by step:

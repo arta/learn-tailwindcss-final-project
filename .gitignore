@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# don't ignore for GitHub Pages - won't build, must have css tho :)
+# /build
 
 # misc
 .DS_Store
